@@ -76,7 +76,7 @@ class Block {
                 String hash = hexString.toString();
 
                 // Check if the hash starts with "00"
-                if (hash.startsWith("155")) {
+                if (hash.startsWith("200")) {
                     return hash;
                 }
 
