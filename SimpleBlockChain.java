@@ -134,11 +134,11 @@ class Blockchain {
             System.out.println("Timestamp: " + block.getTimestamp());
             System.out.println("Previous Hash: " + block.getPreviousHash());
             System.out.println("Hash: " + block.getHash());
-            System.out.println("Credit Card Name: " + block.getBankAcct().getName());
-            System.out.println("Credit Card Number : " + block.getBankAcct().getAcctNumber());
-            System.out.println("Credit Card CVV: " + block.getBankAcct().getRoutingNumber());
-            System.out.println("Credit Card Exp: " + block.getBankAcct().getAmount());
-            System.out.println("Credit Card Transactions: " + block.getBankAcct().getTransactions());
+            System.out.println("Bank Account Name: " + block.getBankAcct().getName());
+            System.out.println("Bank Account Number : " + block.getBankAcct().getAcctNumber());
+            System.out.println("Bank Routing Number: " + block.getBankAcct().getRoutingNumber());
+            System.out.println("Bank Amount: " + block.getBankAcct().getAmount());
+            System.out.println("Bank Transactions: " + block.getBankAcct().getTransactions());
             System.out.println();
         }
     }
